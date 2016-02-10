@@ -1,0 +1,20 @@
+div {
+    background-color:rgb(35,52,97);
+    text-align:center;
+    width:80%
+}
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p {
+    line-height:14.5px;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+img {
+    resize: 50%
+}
