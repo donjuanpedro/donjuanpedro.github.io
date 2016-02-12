@@ -1,0 +1,51 @@
+/*ex1*/
+p {
+    color: orange;
+    font-size: 2rem;
+}
+p span {
+    color:green;
+    text-decoration: line-through;   
+}
+/*ex2*/
+em.highlight {
+    background-color: hotpink;
+}
+h4.highlight {
+    font-size:3em;
+}
+strong.highlight {
+    color: blue;
+}
+highlight {
+    text-decoration: underline;
+}
+/*ex3*/
+#overview > h4 {
+    font-family: monospace;
+}
+h4#strategy {
+    font-stretch: extra-condensed;
+}
+/*ex4*/
+#ex4  section  aside h4{
+    color:purple;
+}
+
+/*ex5*/
+#example > article > p {
+    font-size:10px;
+}
+
+/*ex6*/
+li:hover {
+    color: aqua;
+    font-size:50px;
+}
+li:nth-child(2) {
+    color:aqua;
+    font-size:50px;
+}
+li:nth-child(3) {
+    color:cadetblue;
+}
