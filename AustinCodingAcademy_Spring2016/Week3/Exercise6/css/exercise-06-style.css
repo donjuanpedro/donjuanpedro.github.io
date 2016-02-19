@@ -1,0 +1,19 @@
+/*Add CSS rules*/
+main {
+    float:left;
+    width:100%;
+    font-family: futura;
+}
+div {
+    float:left;
+    width:30%;
+    padding:1%;
+    margin:2px;
+    overflow:auto;
+}
+button {
+    float:left;
+    padding: 10px;
+    background-color:white;
+    border-right: 6px maroon solid;
+}
