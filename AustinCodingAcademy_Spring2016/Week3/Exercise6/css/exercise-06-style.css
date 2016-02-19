@@ -16,4 +16,5 @@ button {
     padding: 10px;
     background-color:white;
     border-right: 6px maroon solid;
+    cursor: pointer;
 }
