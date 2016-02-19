@@ -26,6 +26,14 @@
             .floating {
                 float: left;
             }
+            .clearfix:after {
+                clear:both;
+                content: ".";
+                display: block;
+                height: 0;
+                line-height:0;
+                visibility: hidden;
+            }
             
             /*Hint: Implement the class that can fix container collapse*/
         </style>
@@ -46,9 +54,9 @@
         <hr>
         <h3>Parent container with two childs floating. The parent has the clearfix class allowing to see the childs out of the normal document flow, that's why you can see the blue background</h3>
         <!-- Hint: Add the class that implements a way to fix container collapse -->
-        <div class="parent-container floating">
-            <div class="child-container floating"></div>
-            <div class="child-container floating"></div>
+        <div class="parent-container clearfix">
+            <div class="child-container clearfix floating"></div>
+            <div class="child-container clearfix floating"></div>
         </div>
     </body>
 </html>
