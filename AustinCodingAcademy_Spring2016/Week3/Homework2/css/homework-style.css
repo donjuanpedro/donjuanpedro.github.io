@@ -22,10 +22,10 @@ header > p {
     margin-right: 5%;
     margin-left: 5%;
     background-color: #f0f0f0;
-    padding: 2%;
-}
-#keyboard > h3 {
-    
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top:1%;
 }
 #keyboard > p {
     width: auto;
@@ -33,16 +33,17 @@ header > p {
 }
 #keyboard > img {
     width:100%;
-    padding-top: 2.5%;
 }
 #threepics {
     float:left;
-    width:38%;
+    width:46%;
     height: 100%;
     overflow: auto;
 }
 #threepics > div {
     margin-bottom: 3%;
+    padding: 2%;
+    width:96%;
 }
 #threepics > div > img {
     width: 40%;
@@ -59,31 +60,30 @@ header > p {
     float:left;
 }
 span {
-    width:36%;
+    width:30%;
     height: 60%;
     float:left;
     padding-left: 3%;
 }
 
 #laptop {
-    width:100%;
+    width:99%;
     overflow: auto;
     clear:left;
     background-color: #f0f0f0;
-    padding: 2%;
+    padding: 1%;
 }
 #desk {
-    width:100%;
+    width:99%;
     overflow:auto;
-    margin-left: 0%;
     background-color: #f0f0f0;
-    padding: 2%;
+    padding: 1%;
 }
 #window {
-    width:100%;
+    width:99%;
     overflow:auto;
     background-color: #f0f0f0;
-    padding: 2%;
+    padding: 1%;
 }
 main {
     width:80%;
@@ -95,8 +95,8 @@ main {
  float:left;
  margin-top:2%;
  width:90%;
- margin-left:5%;
- margin-right:5%;
+ margin-left:6%;
+ margin-right:3%;
  border-top: 3px #f0f0f0 solid;
  border-bottom: 3px #f0f0f0 solid;
  margin-bottom: 2%;
@@ -104,7 +104,8 @@ main {
  padding-top: 2%;
 }
 li{
-    list-style-image:url("https://dl.dropboxusercontent.com/s/r2lsfc9c3z74u9h/Screen%20Shot%202016-02-22%20at%209.28.45%20PM.png?dl=0")
+    list-style-image:url("https://dl.dropboxusercontent.com/s/r2lsfc9c3z74u9h/Screen%20Shot%202016-02-22%20at%209.28.45%20PM.png?dl=0");
+    font-size: 10px;
 }
 
 #tableone{
@@ -128,6 +129,9 @@ li{
     width:28%;
     border-left: solid #f0f0f0 3px;
     padding-left: 3%;
+}
+#tablethree > p {
+    font-size:10px;
 }
 
 #keyboard > button {
