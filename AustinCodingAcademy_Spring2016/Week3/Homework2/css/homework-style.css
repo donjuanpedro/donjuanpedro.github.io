@@ -1,0 +1,148 @@
+body {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    font-family: Futura;
+    font-weight: 0;
+}
+h1 {
+    text-align: center;
+}
+header > p {
+    text-align: center;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+}
+#keyboard {
+    width:40%;
+    overflow: auto;
+    float: left;
+    height: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #f0f0f0;
+    padding: 2%;
+}
+#keyboard > h3 {
+    
+}
+#keyboard > p {
+    width: auto;
+    font-size: 10px;
+}
+#keyboard > img {
+    width:100%;
+    padding-top: 2.5%;
+}
+#threepics {
+    float:left;
+    width:38%;
+    height: 100%;
+    overflow: auto;
+}
+#threepics > div {
+    margin-bottom: 3%;
+}
+#threepics > div > img {
+    width: 40%;
+    height: 40%;
+    float:left;
+    padding-top: 3%;
+}
+#threepics > div > span > p {
+    font-size: 10px;
+    padding-top: 1%;
+}
+#threepics > div > span > h3 {
+    font-size:12px;
+    float:left;
+}
+span {
+    width:36%;
+    height: 60%;
+    float:left;
+    padding-left: 3%;
+}
+
+#laptop {
+    width:100%;
+    overflow: auto;
+    clear:left;
+    background-color: #f0f0f0;
+    padding: 2%;
+}
+#desk {
+    width:100%;
+    overflow:auto;
+    margin-left: 0%;
+    background-color: #f0f0f0;
+    padding: 2%;
+}
+#window {
+    width:100%;
+    overflow:auto;
+    background-color: #f0f0f0;
+    padding: 2%;
+}
+main {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.tables {
+ float:left;
+ margin-top:2%;
+ width:90%;
+ margin-left:5%;
+ margin-right:5%;
+ border-top: 3px #f0f0f0 solid;
+ border-bottom: 3px #f0f0f0 solid;
+ margin-bottom: 2%;
+ padding-bottom: 2%;
+ padding-top: 2%;
+}
+li{
+    list-style-image:url("https://dl.dropboxusercontent.com/s/r2lsfc9c3z74u9h/Screen%20Shot%202016-02-22%20at%209.28.45%20PM.png?dl=0")
+}
+
+#tableone{
+    float:left;
+    width:28%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-right: solid #f0f0f0 3px;
+}
+
+#tabletwo {
+    float:left;
+    width:28%;
+    padding-left: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#tablethree {
+    float:left;
+    width:28%;
+    border-left: solid #f0f0f0 3px;
+    padding-left: 3%;
+}
+
+#keyboard > button {
+    float:right;
+    border: 4px #f0f0f0 solid;
+    border-color: #f0f0f0;
+    background-color: #f0f0f0;
+    color:green;
+    text-decoration: underline;
+}
+#tablethree > button {
+    float:right;
+    border: 4px white solid;
+    border-color: white;
+    background-color: white;
+    color:green;
+    text-decoration: underline;
+}
