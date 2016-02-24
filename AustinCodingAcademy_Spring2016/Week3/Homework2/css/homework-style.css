@@ -66,22 +66,10 @@ span {
     padding-left: 3%;
 }
 
-#laptop {
+.pictures {
     width:99%;
     overflow: auto;
     clear:left;
-    background-color: #f0f0f0;
-    padding: 1%;
-}
-#desk {
-    width:99%;
-    overflow:auto;
-    background-color: #f0f0f0;
-    padding: 1%;
-}
-#window {
-    width:99%;
-    overflow:auto;
     background-color: #f0f0f0;
     padding: 1%;
 }
