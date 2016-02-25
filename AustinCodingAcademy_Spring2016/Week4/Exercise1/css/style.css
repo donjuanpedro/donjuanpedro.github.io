@@ -1,0 +1,89 @@
+p, h1 {
+    font-family: monospace;
+    color:white;
+}
+.garden {
+    background-image: url('../img/1.jpg');
+    text-align: center;
+    line-height: 3;
+    background-size: cover;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    color:darkseagreen;
+}
+.garden > div {
+    background-color: rgba(0,0,0,.5);
+    padding: 100px 0;
+}
+#uno {
+    background-image: url(../img/featured-image-3.jpg);
+    background-size: cover;
+    width:100%;
+}
+#dos {
+    background-image: url(../img/featured-image-4.jpg);
+    background-size: cover;
+    margin-top: 7.5%;
+    width:100%;
+}
+#tres {
+    background-image: url(../img/featured-image-5.jpg);
+    background-size:cover;
+    width: 60%;
+    line-height: 2;
+    margin-left: 2%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+#words > h1 {
+    line-height: 1;
+}
+#words {
+    padding: 20%;
+}
+.opacity > div {
+    background-color: rgba(0,0,0,.5);
+    padding: 20%;
+}
+.opacity {
+    float: left;
+    width: 100%;
+}
+.left {
+    float: left;
+    width: 38%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+main {
+    width:90%;
+    margin-left: 5%;
+}
+#more, #ours {
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif
+}
+#more {
+    background-color: grey;
+    text-decoration-style: solid 2px grey;
+    border: solid 2px grey;
+    padding:6px;
+}
+#ours {
+    text-decoration-style: solid 2px white;
+    border: solid 2px white;
+    padding:6px;
+}
+#contact {
+    background-color: #96b800;
+    text-decoration: none;
+    text-decoration-style: solid 2px #96b800;
+    border: solid 2px #96b800;
+    padding:6px;
+    color: white;
+    font-family:sans-serif
+}
