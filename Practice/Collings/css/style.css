@@ -1,0 +1,23 @@
+.tweedy {
+    background-image: url(http://www.collingsguitars.com/Images/home/jeff-tweedy.jpg);
+    text-align: center;
+    background-size:cover;
+    width: 100%;
+    overflow: auto;
+    height: 600px;
+}
+h1 {
+    font-size:40px;
+    color: whitesmoke;
+    font-family: ; 
+}
+.tweedy > div {
+    padding-top: 15%;
+    padding-bottom: 80%;
+    background-color: rgba(0,0,0,.3);
+}
+a {
+    color: whitesmoke;
+    font-family: monospace; 
+    text-decoration: none;
+}

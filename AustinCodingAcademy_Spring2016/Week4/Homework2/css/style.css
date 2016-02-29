@@ -1,0 +1,110 @@
+header{
+    float:left;
+    width:50%;
+    text-align: left;
+}
+nav {
+    float:left;
+    width:50%;
+    text-align: right;
+    margin-top: 30px;
+}
+nav > span > a {
+    text-decoration: none;
+    padding-right: 6px;
+    color:black;
+}
+#pagetop {
+    float:left;
+    width:100%;
+}
+.darkphoto {
+    width:100%;
+    clear:both;
+    background-color: rgba(0,0,0,.9);
+    color:white;
+}
+#topphoto {
+    background-image: url("../img/wine-bg.jpg");
+}
+#topphoto > div{
+    background-color: rgba(0,0,0,.6);
+    padding:10%;
+    text-align: center;
+}
+#topphoto > div > :nth-child(2){
+    font-style:italic;
+}
+#topphoto > div > h2{
+    font-size: 40px;
+}
+#middledouble {
+    width:100%;
+    clear:both;
+    height: 600px;
+}
+#hardwork {
+    width:48%;
+    text-align: center;
+    float:left;
+    padding-top: 300px;
+}
+#powerwash {
+    float:left;
+    width:48%;
+    overflow: hidden;
+    height: 100%;
+    padding-bottom: 200px;
+}
+#bottomphoto {
+    background-image: url("../img/wine13.jpg");
+}
+#bottomphoto > div {
+    background-color: rgba(0,0,0,.6);
+    padding:10%;
+    text-align: center;
+}
+#bottomphoto > div > h3 {
+    font-size:30px;
+    font-style:italic;
+}
+#bottomtriple > img {
+    float:left;
+    width:30%;
+    height: 900px;
+}
+#bottomtriple {
+    width:80%;
+    margin-left: 13%;
+    clear:both;
+}
+#bottomdescriptions {
+    float:left;
+    width:80%;
+    margin-left: 13%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#shiraz {
+    float:left;
+    width:30%;
+}
+#chardonnay {
+    float:left;
+    width:30%;
+}
+#merlot {
+    float:left;
+    width:30%;
+}
+#bottomdescriptions > div > h4{
+    font-style:italic;
+}
+#bottomdescriptions > div > a{
+    padding:8px;
+    color:white;
+    text-decoration: none;
+    background-color: darkseagreen;
+    border:2px solid darkseagreen;
+}
+    
