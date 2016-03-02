@@ -3,6 +3,10 @@ header{
     width:50%;
     text-align: left;
 }
+h3{
+    font-family: cursive;
+    font-size: 30px;
+}
 nav {
     float:left;
     width:50%;
@@ -68,7 +72,6 @@ nav > span > a {
     text-align: center;
 }
 #bottomphoto > div > h3 {
-    font-size:30px;
     font-style:italic;
 }
 #bottomtriple > img {
