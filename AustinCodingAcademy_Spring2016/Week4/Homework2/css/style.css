@@ -76,8 +76,10 @@ nav > span > a {
 }
 #bottomtriple > img {
     float:left;
-    width:30%;
-    height: 900px;
+    width:13%;
+    height: 450px;
+    padding-right: 10%;
+    padding-left: 8%;
 }
 #bottomtriple {
     width:80%;
