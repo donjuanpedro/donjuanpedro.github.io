@@ -1,0 +1,119 @@
+header{
+    margin-left: 1%;
+    margin-right: 1%;
+    clear: both;
+}
+h1 {
+    float:left;
+    text-align: left;
+    width:49%;
+    font-size:40px;
+}
+nav{
+    float:left;
+    text-align: right;
+    width:49%;
+    clear: right;
+}
+nav > span > a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding-right: 10px;
+}
+#topguitar {
+    float:left;
+    background-image: url("https://sussexrocks2012.files.wordpress.com/2012/08/sussex-rocks-header.jpeg");
+    background-repeat: cover;
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color:white;
+}
+#topguitar > div {
+    background-color: rgba(0,0,0,.6);
+    padding:10%;
+    text-align: center;
+}
+h2 {
+    font-size:40px;
+}
+#topguitar > div > a {
+    color: white;
+    text-decoration: none;
+    padding:5px;
+    border:white 1px solid;
+    margin-top: 10px;
+}
+#topguitar > div > p {
+    padding:10px;
+    margin-bottom: 10px;
+}
+#micparagraph {
+    float: left;
+    clear: both;
+}
+#guitartwo {
+    width: 50%;
+    float: left;
+}
+#starving {
+    width: 50%;
+    float: left;
+    padding-top: 200px;
+    text-align: center;
+}
+#starving > h3 {
+    font-size: 30px;
+}
+#fourpicdescriptions {
+    width: 80%;
+    margin-left: 20%;
+}
+#fourpicdescriptions > div > img {
+    width: 20%;
+    float: left;
+}
+#bottomtwo {
+    width: 100%;
+    
+}
+#father {
+    float: left;
+    width: 50%;
+}
+#bon {
+    float: left;
+    width: 50%;
+}
+#father > img {
+    float: left;
+    width: 100%;
+}
+#bon > img {
+    float: left;
+    width: 100%;
+}
+#bottomguitar{
+    float: left;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    background-image: url("http://41.media.tumblr.com/92fd242c0f073c6706acea454f56b69b/tumblr_nu27d9jdjU1qc1ct4o8_1280.jpg");
+    color: white;
+    height: 400px;
+}
+#bottomguitar > div{
+    padding-top: 150px;
+}
+#bottomguitar > div > a{
+    text-decoration: none;
+    color: white;
+    padding:5px;
+    border:white 1px solid;
+}
+#bottomguitar > div > p {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
