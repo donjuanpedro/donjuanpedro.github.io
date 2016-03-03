@@ -17,9 +17,10 @@ nav{
 }
 nav > span > a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     padding-right: 10px;
+    
 }
 #topguitar {
     float:left;
@@ -52,27 +53,55 @@ h2 {
 #micparagraph {
     float: left;
     clear: both;
+    overflow: auto;
 }
 #guitartwo {
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-left: 10%;
+    overflow: hidden;
+}
+#guitartwo > img {
+    width:100%;
 }
 #starving {
-    width: 50%;
+    width: 40%;
     float: left;
-    padding-top: 200px;
+    padding-top:9%;
     text-align: center;
+    margin-right: 8%;
+    margin-left: 1%;
 }
-#starving > h3 {
+#starving > span {
+    width: 50%;
+}
+#starving > span > h3 {
     font-size: 30px;
 }
 #fourpicdescriptions {
     width: 80%;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 #fourpicdescriptions > div > img {
     width: 20%;
     float: left;
+    margin-right:2%;
+}
+#descriptions {
+    float:left;
+    width:100%;
+}
+#descriptions > div {
+    float:left;
+    width:20%;
+    text-align: center;
+    padding-right: 2%;
+}
+#descriptions > div > h4{
+    font-weight: bold;
+}
+.drums {
+
 }
 #bottomtwo {
     width: 100%;
@@ -96,16 +125,20 @@ h2 {
 }
 #bottomguitar{
     float: left;
-    width:70%;
-    margin-left: 15%;
+    width:60%;
+    margin-left: 20%;
     margin-right: 15%;
     text-align: center;
     background-image: url("http://41.media.tumblr.com/92fd242c0f073c6706acea454f56b69b/tumblr_nu27d9jdjU1qc1ct4o8_1280.jpg");
+    background-repeat: no-repeat;
+    overflow: auto;
     color: white;
-    height: 400px;
 }
 #bottomguitar > div{
-    padding-top: 150px;
+    padding-top: 70px;
+    background-color: rgba(0,0,0,.6);
+    padding-bottom: 192px;
+    width:100%;
 }
 #bottomguitar > div > a{
     text-decoration: none;
@@ -116,4 +149,6 @@ h2 {
 #bottomguitar > div > p {
     padding-bottom: 10px;
     margin-bottom: 10px;
+    width: 70%;
+    margin-left: 15%;
 }
