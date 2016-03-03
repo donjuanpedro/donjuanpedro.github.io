@@ -17,10 +17,9 @@ nav{
 }
 nav > span > a {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 15px;
     color: black;
     padding-right: 10px;
-    
 }
 #topguitar {
     float:left;
