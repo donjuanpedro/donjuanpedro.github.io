@@ -138,17 +138,15 @@ h2 {
 }
 #bottomguitar{
     float: left;
-    width:100%;
-    text-align: center;
     background-image: url("http://41.media.tumblr.com/92fd242c0f073c6706acea454f56b69b/tumblr_nu27d9jdjU1qc1ct4o8_1280.jpg");
+    width:100%;
     background-size: cover;
-    overflow: auto;
     color: white;
 }
 #bottomguitar > div{
-    padding-top: 15%;
+    text-align: center;
     background-color: rgba(0,0,0,.6);
-    padding-bottom: 192px;
+    padding:10%;
     padding-left: 25%;
     padding-right: 25%;
 }
