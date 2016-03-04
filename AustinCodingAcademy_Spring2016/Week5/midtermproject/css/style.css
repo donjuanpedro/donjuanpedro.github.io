@@ -7,24 +7,26 @@ header{
 h1 {
     float:left;
     text-align: left;
-    width:49%;
+    width:50%;
     font-size:40px;
 }
 nav{
-    float:right;
+    float:left;
     text-align: right;
-    width:49%;
-    clear: right;
+    width:50%;
 }
 nav > span {
     padding:10px;
+    color: black;
+    border: 1px solid black;
+    width:10%;
+    overflow: auto;
 }
 nav > span > a {
     text-decoration: none;
     font-size: 15px;
-    color: black;
-    border: 1px solid black;
     padding: 10px;
+    color: black;
 }
 #topguitar {
     float:left;
