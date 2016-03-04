@@ -2,6 +2,7 @@ header{
     margin-left: 1%;
     margin-right: 1%;
     clear: both;
+    margin-top: 20px;
 }
 h1 {
     float:left;
@@ -22,7 +23,8 @@ nav > span > a {
     text-decoration: none;
     font-size: 15px;
     color: black;
-    padding-right: 10px;
+    border: 1px solid black;
+    padding: 10px;
 }
 #topguitar {
     float:left;
