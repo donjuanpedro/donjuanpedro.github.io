@@ -10,10 +10,13 @@ h1 {
     font-size:40px;
 }
 nav{
-    float:left;
+    float:right;
     text-align: right;
     width:49%;
     clear: right;
+}
+nav > span {
+    padding:10px;
 }
 nav > span > a {
     text-decoration: none;
@@ -24,16 +27,16 @@ nav > span > a {
 #topguitar {
     float:left;
     background-image: url("https://sussexrocks2012.files.wordpress.com/2012/08/sussex-rocks-header.jpeg");
-    background-repeat: cover;
-    width:50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    background-size: cover;
+    width:100%;
     color:white;
 }
 #topguitar > div {
     background-color: rgba(0,0,0,.6);
     padding:10%;
     text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 h2 {
     font-size:40px;
@@ -53,6 +56,7 @@ h2 {
     float: left;
     clear: both;
     overflow: auto;
+    padding:1%;
 }
 #guitartwo {
     width: 40%;
@@ -89,22 +93,30 @@ h2 {
 #descriptions {
     float:left;
     width:100%;
+    padding-right:1%;
 }
 #descriptions > div {
     float:left;
     width:20%;
     text-align: center;
     padding-right: 2%;
+    padding-bottom: 1%;
 }
 #descriptions > div > h4{
     font-weight: bold;
 }
-.drums {
 
-}
 #bottomtwo {
     width: 100%;
-    
+}
+#bottomtwo > div > p{
+    width: 80%;
+    float:right;
+    margin-right: 2%;
+    padding:1%
+}
+#bottomtwo > div > p:nth-child(4) {
+    float:right;
 }
 #father {
     float: left;
@@ -117,27 +129,28 @@ h2 {
 #father > img {
     float: left;
     width: 100%;
+    height:400px;
 }
 #bon > img {
     float: left;
     width: 100%;
+    height:400px;
 }
 #bottomguitar{
     float: left;
-    width:60%;
-    margin-left: 20%;
-    margin-right: 15%;
+    width:100%;
     text-align: center;
     background-image: url("http://41.media.tumblr.com/92fd242c0f073c6706acea454f56b69b/tumblr_nu27d9jdjU1qc1ct4o8_1280.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
     overflow: auto;
     color: white;
 }
 #bottomguitar > div{
-    padding-top: 70px;
+    padding-top: 15%;
     background-color: rgba(0,0,0,.6);
     padding-bottom: 192px;
-    width:100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 #bottomguitar > div > a{
     text-decoration: none;
@@ -150,4 +163,8 @@ h2 {
     margin-bottom: 10px;
     width: 70%;
     margin-left: 15%;
+}
+#testimonial {
+    clear: both;
+    text-align: center;
 }
