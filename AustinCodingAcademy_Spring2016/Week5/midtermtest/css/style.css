@@ -17,10 +17,14 @@
     width:60%;
     margin-left: 20%;
 }
-#aboutus > span > h2, p {
+#aboutus > span > h2 {
     text-align: center;
     width:70%;
     margin-left: 15%;
+}
+#aboutus > span > p {
+    width:70%;
+    margin-left:15%;
 }
 #threephotos {
     float: left;
