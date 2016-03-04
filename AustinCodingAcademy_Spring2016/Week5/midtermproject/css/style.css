@@ -26,7 +26,6 @@ nav > span {
     margin: 1%;
     color: black;
     border: 1px solid black;
-    overflow: cover;
     background-color: black;
 }
 nav > span > a {
