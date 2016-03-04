@@ -1,0 +1,35 @@
+#pizza {
+    width: 70%;
+    margin-left:15%;
+    background-image: url(../img/pizza.png);
+    text-align: center;
+    height:200px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color:white;
+}
+#pizza > div {
+    width:100%;
+    background-color: rgba(0,0,0,.8);
+    overflow: hidden;
+}
+#aboutus {
+    width:60%;
+    margin-left: 20%;
+}
+#aboutus > span > h2, p {
+    text-align: center;
+    width:70%;
+    margin-left: 15%;
+}
+#threephotos {
+    float: left;
+    width:80%;
+    margin-left:12%;
+}
+#threephotos > img {
+    float: left;
+    width:30%;
+    height:300px;
+    padding:1%;
+}
