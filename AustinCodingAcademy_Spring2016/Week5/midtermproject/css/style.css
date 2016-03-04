@@ -13,13 +13,16 @@ h1 {
 nav{
     float:left;
     text-align: right;
-    width:50%;
+    width:40%;
+    padding-left: 10%;
 }
 nav > span {
-    padding:1%;
+    float: left;
+    text-align: right;
+    padding:5px;
+    margin: 1%;
     color: black;
     border: 1px solid black;
-    width:10%;
     overflow: auto;
 }
 nav > span > a {
