@@ -1,0 +1,56 @@
+body {
+    font-family: futura;
+}
+nav {
+    float:left;
+    clear:both;
+    width:100%;
+    background-color: black;
+}
+nav > span > a{
+    text-decoration: none;
+    padding:5px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    float:left;
+}
+#titleimage > div {
+    float:left;
+    align-content: center;
+    width:30%;
+    padding-left:35%;
+    padding-right:35%;
+    background-color: black;
+}
+#titleimage > img {
+    align-content: center;
+    float:left;
+}
+#twodrinks {
+    width:100%;
+    float:left;
+}
+#twodrinks > div {
+    width:50%;
+    float:left;
+}
+#twodrinks > div > img {
+    float:left;
+    width:100%;
+}
+#bottomimage {
+    background-image: url(../img/bar.jpg);
+    width:100%;
+    float:left;
+    background: cover;
+    background-repeat: no-repeat;
+ 
+}
+#bottomimage > div {
+    text-align: center;
+    color:white;
+    float:left;
+}
+
+
