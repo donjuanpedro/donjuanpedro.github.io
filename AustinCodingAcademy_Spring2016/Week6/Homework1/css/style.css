@@ -3,6 +3,7 @@ h2 {
 }
 #orderfood {
     background-image: url(../img/sub_header_home.jpg);
+    background-size: cover;
     color: white;
     background-repeat: no-repeat;
     width: 100%;
