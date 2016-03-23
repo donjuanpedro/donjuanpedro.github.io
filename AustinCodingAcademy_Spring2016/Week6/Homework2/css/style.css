@@ -1,0 +1,31 @@
+.my_header {
+    background-color: bisque;   
+}
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+.my_nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkseagreen;
+}
+.my_nav ul {
+    margin: 20px 0;
+    padding-left: 0;
+}
+li a {
+    color: navy;
+    font-size: 18px;
+    padding-right: 15px;
+}
+img {
+    width:100%;
+    
+}
+.my_content p {
+    margin-top: 30px;
+}
+#han {
+    height:400px;
+}
