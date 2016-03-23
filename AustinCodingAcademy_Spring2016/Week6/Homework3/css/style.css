@@ -1,7 +1,7 @@
 #myCarousel {
     overflow: hidden;
     text-align: center;
-    height: 400px;
+    height: 350px;
 }
 #headline {
     text-align: center;
@@ -16,6 +16,9 @@ header {
 #pritchard {
     text-align: center;
     overflow: hidden;
+}
+#woods {
+    text-align: center;
 }
 #vinyl > img {
     height: 300px;
@@ -36,4 +39,29 @@ header {
     margin: 0%;
     width: 100%;
   }
+}
+@media (max-width: 900px) {
+  #woods > img {
+    height: auto;
+    margin: 0%;
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  #myCarousel {
+    height: 420px;
+    margin: 0%;
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .thumbs {
+    height: auto;
+    margin: 0%;
+    width: 50%;
+    text-align: center;
+  }
+  .thumbs > h3 {
+    font-size:10px;
+    }
 }
