@@ -27,34 +27,42 @@ header {
     height: 300px;
     margin-left: 4%;
 }
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   #pritchard > img {
     height: auto;
+    width:100%;
     margin: 0%;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   #vinyl > img {
     height: auto;
     margin: 0%;
     width: 100%;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   #woods > img {
     height: auto;
     margin: 0%;
     width: 100%;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   #myCarousel {
-    height: 420px;
     margin: 0%;
+    height: 300px;
+    width:100%
+  }
+}
+@media (max-width: 1080px) {
+  #myCarousel {
+    margin: 0%;
+    height: 300px;
     width: 100%;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   .thumbs {
     height: auto;
     margin: 0%;
