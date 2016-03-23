@@ -27,6 +27,18 @@ header {
     height: 300px;
     margin-left: 4%;
 }
+#sxsw > img {
+    width:100%;
+}
+#sxsw {
+    text-align: center;
+}
+#eleanor {
+    text-align: center;
+}
+#eleanor > img {
+    width:100%;
+}
 @media (max-width: 1080px) {
   #pritchard > img {
     height: auto;
@@ -51,15 +63,8 @@ header {
 @media (max-width: 1080px) {
   #myCarousel {
     margin: 0%;
-    height: 300px;
+    height: auto;
     width:100%
-  }
-}
-@media (max-width: 1080px) {
-  #myCarousel {
-    margin: 0%;
-    height: 300px;
-    width: 100%;
   }
 }
 @media (max-width: 1080px) {
