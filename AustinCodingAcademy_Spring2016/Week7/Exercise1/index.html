@@ -18,12 +18,18 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse">
+        <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
         <div class="navbar-header">
             <a href="#" class="navbar-brand">Hello Nav</a>
         </div>
+        <div id="nav_collapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-            <li class="dropdown"><a href="#" data-toggle="dropdown">Page 1<span class=caret></span></a>
+            <li class="active" class="dropdown"><a href="#" data-toggle="dropdown">Page 1<span class=caret></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Item 1</a></li>
                     <li class="divider" role="separator"></li>
@@ -32,7 +38,7 @@
                     <li><a href="#">Item 3</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="#" data-toggle="dropdown">Page 2<span class=caret></span></a>
+            <li class="active" class="dropdown"><a href="#" data-toggle="dropdown">Page 2<span class=caret></span></a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-header">Heading</li>
                     <li class="divider" role="separator"></li>
@@ -43,7 +49,7 @@
                     <li><a href="#">Item 3</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="#" data-toggle="dropdown">Page 3<span class=caret></span></a>
+            <li class="active" class="dropdown"><a href="#" data-toggle="dropdown">Page 3<span class=caret></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Item 1</a></li>
                     <li class="divider" role="separator"></li>
@@ -63,8 +69,9 @@
             <li><a href="#">Sign In</a></li>
             <li><a href="#">New User</a></li>
         </ul>
+       </div>
     </nav>
-      
+    
       
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
