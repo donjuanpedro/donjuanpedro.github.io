@@ -1,0 +1,39 @@
+#myCarousel {
+    overflow: hidden;
+    text-align: center;
+    height: 400px;
+}
+#headline {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+#vinyl {
+    text-align: center;
+    overflow: hidden;
+}
+#pritchard {
+    text-align: center;
+    overflow: hidden;
+}
+#vinyl > img {
+    height: 300px;
+}
+#pritchard > img {
+    height: 300px;
+    margin-left: 4%;
+}
+@media (max-width: 900px) {
+  #pritchard > img {
+    height: auto;
+    margin: 0%;
+  }
+}
+@media (max-width: 900px) {
+  #vinyl > img {
+    height: auto;
+    margin: 0%;
+    width: 100%;
+  }
+}

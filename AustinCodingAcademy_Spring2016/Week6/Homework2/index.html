@@ -21,16 +21,60 @@
     <![endif]-->
   </head>
   <body>
-    <main class="container">
-      <div class="row my_nav">
-        <div class="col-xs-12 text-left">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <nav id="my_Nav" class="navbar navbar-inverse">
+        <button class="collapsed navbar-toggle" data-target="#nav_collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Hello Nav</a>
         </div>
-      </div>
+        <div id="nav_collapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active" class="dropdown"><a href="#" data-toggle="dropdown">Page 1<span class=caret></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Item 1</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+            <li class="active" class="dropdown"><a href="#" data-toggle="dropdown">Page 2<span class=caret></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">Heading</li>
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#">Item 1</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+            <li class="active" class="dropdown"><a href="#" data-toggle="dropdown">Page 3<span class=caret></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Item 1</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="search">
+            </div>
+            <button class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">New User</a></li>
+        </ul>
+       </div>
+    </nav>
+    <main class="container">
       <div class="row my_content">
         <div class="col-sm-8">
                 <div>
@@ -56,17 +100,6 @@
         </div>
     </div>
     <div class="row col-xs-12">
-        <div class="col-lg-3 col-xs-8">
-                <img src="http://placehold.it/300x200">
-        </div>
-        <div class="row">
-        <div class="col-lg-3 col-xs-8">
-                <img src="http://placehold.it/300x200">
-        </div>
-        </div>
-        <div class="col-lg-3 col-xs-8">
-                <img src="http://placehold.it/300x200">
-        </div>
         <div class="col-lg-3 col-xs-8">
                 <img src="http://placehold.it/300x200">
         </div>
