@@ -11,3 +11,12 @@
     border: none;
 }
 
+.contact_block {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+}
+.hideandseek {
+    max-height:180px;
+    width:100%;
+}
