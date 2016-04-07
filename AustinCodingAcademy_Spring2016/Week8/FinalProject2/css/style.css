@@ -635,6 +635,7 @@
 
 	.member-image{
 		position: relative;
+        height:100%;
 	}
 
 	.member-info{
@@ -697,7 +698,7 @@
 /* 11. TESTIMONIAL */
 
 	#testimonial{
-		background-image: url(../images/lastsupper.JPG);
+		background-image: url(../images/congress.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
