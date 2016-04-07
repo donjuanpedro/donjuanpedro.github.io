@@ -4,23 +4,13 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll >= 200) {
+        if(verticalScroll >= 450) {
 
-            $('#pancakes').addClass('animated flipInX infinite');
+            $('.funtimes').addClass('animated bounceInDown');
         }
 
     });
     
-    $(window).scroll(function() {
-
-        var verticalScroll = $(this).scrollTop();
-
-        if(verticalScroll >= 200) {
-
-            $('#my_jello').addClass('animated jello infinite');
-        }
-
-    });
     
 }); 
 
