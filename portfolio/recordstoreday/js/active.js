@@ -54,7 +54,7 @@
 
      // countdown
       // To change date, simply edit: var endDate = "May 26, 2015 20:39:00";
-      var endDate = "May 19, 2015 20:39:00";
+      var endDate = "April 16, 2016 20:39:00";
         $('.boss-countdown').countdown({
           date: endDate,
           render: function(data) {
