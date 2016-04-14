@@ -120,8 +120,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         <div class="row">
                             <div class="col-sm-7">
                                 <h1>I am</h1>
-                                <h2>your next storyteller</h2>
-                                <p>on this mysterious journey.</p>
+                                <h2>your next designer</h2>
+                                <p>for the masses.</p>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         <div class="row">
                             <div class="col-sm-7">
                                 <h1>I am</h1>
-                                <h2>your next visionary</h2>
+                                <h2>your next developer</h2>
                                 <p>on the path to success.</p>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                             <div class="col-sm-7">
                                 <h1>I am</h1>
                                 <h2>your next creative mind</h2>
-                                <p>shaping, moving, creating.</p>
+                                <p>shaping, moving, crafting.</p>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         <div class="row">
                             <div class="col-sm-7">
                                 <h1>I am</h1>
-                                <h2>your next traveler</h2>
+                                <h2>your next visionary</h2>
                                 <p>beyond the norm.</p>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h1>My Favorite Past Accounts</h1>
+                        <h1>Favorite Past <i class="fa fa-ticket" aria-hidden="true"></i> Projects</h1>
                         <span class="st-border"></span>
                     </div>
                 </div>
@@ -224,7 +224,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </div>
                         <div class="member-info">
                             <h4>Shooter Jennings</h4>
-                            <span>Artist</span>
+                            <span>VIP</span>
                         </div>
 
                     </div>
@@ -236,7 +236,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </div>
                         <div class="member-info">
                             <h4>Down</h4>
-                            <span>Band</span>
+                            <span>VIP</span>
                         </div>
                     </div>
                 </div>
@@ -247,7 +247,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </div>
                         <div class="member-info">
                             <h4>Vince Gill</h4>
-                            <span>Artist</span>
+                            <span>Fan Club</span>
                         </div>
                     </div>
                 </div>
@@ -258,7 +258,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </div>
                         <div class="member-info">
                             <h4>Martina McBride</h4>
-                            <span>Artist</span>
+                            <span>Fan Club</span>
                         </div>
                     </div>
                 </div>
@@ -269,7 +269,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </div>
                         <div class="member-info">
                             <h4>Willie Nelson</h4>
-                            <span>Artist</span>
+                            <span>July 4th Picnic</span>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </div>
                         <div class="member-info">
                             <h4>The Who</h4>
-                            <span>Band</span>
+                            <span>Fan Club</span>
                         </div>
                     </div>
                 </div>
@@ -291,7 +291,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </div>
                         <div class="member-info">
                             <h4>Los Lonely Boys</h4>
-                            <span>Band</span>
+                            <span>Fan Club</span>
                         </div>
                     </div>
                 </div>
@@ -302,7 +302,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </div>
                         <div class="member-info">
                             <h4>Radiohead</h4>
-                            <span>Band</span>
+                            <span>Fan Club</span>
                         </div>
                     </div>
                 </div>
@@ -531,9 +531,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 <div class="col-md-8 col-md-offset-2 col-sm-12">
                     <div class="st-testimonials">
                         <div class="item active text-center">
-							<p>"But I say to you that when you work you fulfil a part of earth's furthest dream, assigned to you when that dream was born,
-                            And in keeping yourself with labour you are in truth loving life,
-                            And to love life through labour is to be intimate with life's inmost secret."</p>
+							<p>"And to love life through labour is to be intimate with life's inmost secret."</p>
 							<div class="st-border"></div>
 							<div class="client-info">
 								<h5>Kahlil Gibran</h5>
@@ -556,38 +554,6 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 								<h5>Indiana Jones</h5>
 							</div>
 						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!--Fun Facts-->
-    <section id="fun-facts">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <div class="fun-fact text-center">
-                        <h3><i class="fa fa-thumbs-o-up"></i><span class="st-counter">20,546</span></h3>
-                        <p>Glasses of whisky</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="fun-fact text-center">
-                        <h3><i class="fa fa-briefcase fa-6"></i><span class="st-counter">50,987</span></h3>
-                        <p>Miles traveled</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="fun-fact text-center">
-                        <h3><i class="fa fa-coffee"></i><span class="st-counter">29,345</span></h3>
-                        <p>Cups of coffee</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="fun-fact text-center">
-                        <h3><span class="st-counter">0</span></h3>
-                        <p>Missed planes</p>
                     </div>
                 </div>
             </div>
