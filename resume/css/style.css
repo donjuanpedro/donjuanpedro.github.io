@@ -68,11 +68,13 @@ p {
         border: none;
     }
 }
-a {
+a, a:visited {
     text-decoration: none;
     color:black;
 }
-a:hover, a:visited, a:active {
-    color:seagreen;
+a:hover, a:active {
     text-decoration: none;
+    color:seagreen;
 }
+
+
