@@ -43,27 +43,26 @@ body, html {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-size: 16px;
-  background: #f8faeb;
+  background: #78d8d8;
   color: #3a3a3a;
   height: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 5px;
-	color: #3d5054;
+	color: #78d8d8;
 	line-height: 1em;
-	font-weight: normal;
+	font-weight: bold;
 	margin: 0 0 10px;
 }
 h1 {
-	font-family: 'Lobster', cursive;
-	text-transform: capitalize;
-	color: #ffd57a;
+	font-family: 'Belleza', sans-serif;
+	color: #60a8a8;
 	margin-bottom: 65px;
 }
 h2 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 700;
-	color: #feff96;
+	color: #60a8a8;
 	text-transform: uppercase;
 }
 h3 {
@@ -322,17 +321,17 @@ a:active {color: #416467;}
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255, 255, 255, .6);
 }
 .sun .btn-sand {
-	color: #232323;
-	background: #ffd57a;
-	border-color: #ffd57a;
+	color: #fff;
+	background: #60a8a8;
+	border-color: #60a8a8;
 	font-weight: bold;
 }
 .sun .btn-sand:hover {
-	background:#F7B72D;
-	border-color:#F7B72D; 
+	background:#60a8a8;
+	border-color:#60a8a8; 
 }
 .sun .btn-sand:focus {
-	border-color:#F7B72D;
+	border-color:#60a8a8;
 	outline: none;
 }
 .sun .form-control::-moz-placeholder {
