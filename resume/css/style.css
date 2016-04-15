@@ -1,0 +1,39 @@
+.account_manager > p {
+    text-align: left;
+}
+.bottom_three > div > p {
+    text-align: left; 
+}
+.bottom_three > div > h4 {
+    text-align: left;
+}
+.skills {
+    border-top: 2px solid black;
+    
+}
+.education {
+    border-top:2px solid black;
+   
+}
+.customer_service {
+    border-right: 2px solid black;
+    border-left:2px solid black;
+}
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+h4 {
+    font-family: 'Play', sans-serif;
+}
+h5 {
+    font-family: 'Nobile', sans-serif;
+}
+p {
+    font-family: 'Rubik', sans-serif;
+}
