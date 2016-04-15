@@ -45,4 +45,7 @@ p {
     #email_address > p {
         text-align: center;
     }
+    .customer_service {
+        border: none;
+    }
 }
