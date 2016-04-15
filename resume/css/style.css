@@ -76,3 +76,7 @@ a:hover {
     color:seagreen;
     text-decoration: none;
 }
+a:active {
+    color:seagreen;
+    text-decoration: none;
+}
