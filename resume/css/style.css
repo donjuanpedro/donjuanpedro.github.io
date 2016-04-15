@@ -45,9 +45,6 @@ p {
     #email_address > p {
         text-align: center;
     }
-    .customer_service {
-        border: none;
-    }
 }
 @media screen and (max-width: 320px) {
     .customer_service {
