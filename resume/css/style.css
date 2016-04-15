@@ -68,3 +68,11 @@ p {
         border: none;
     }
 }
+a {
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    color:seagreen;
+    text-decoration: none;
+}
