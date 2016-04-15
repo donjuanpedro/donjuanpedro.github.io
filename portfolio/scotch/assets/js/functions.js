@@ -70,7 +70,7 @@ jQuery(document).ready(function($) {
          targetOffset: {
             'day':      0,
             'month':    0,
-            'year':     1,
+            'year':     15,
             'hour':     0,
             'min':      0,
             'sec':      3
