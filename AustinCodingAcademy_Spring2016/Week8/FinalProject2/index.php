@@ -104,6 +104,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                     <li><a href="#our-works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="http://southhousetunes.com" target="_blank">Blog</a></li>
+                    <li><a href="http://donjuanpedro.github.io/" target="_blank">GitHub</a></li>
                 </ul>
             </div>
           </div>
@@ -120,7 +121,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         <div class="row">
                             <div class="col-sm-7">
                                 <h1>I am</h1>
-                                <h2>your next designer</h2>
+                                <h2>your next storyteller</h2>
                                 <p>for the masses.</p>
                             </div>
                         </div>
@@ -133,7 +134,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                             <div class="col-sm-7">
                                 <h1>I am</h1>
                                 <h2>your next developer</h2>
-                                <p>on the path to success.</p>
+                                <p>from the ground up.</p>
                             </div>
                         </div>
                     </div>
@@ -495,8 +496,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 			<div class="row">
 				<div class="col-sm-6">
 					<div class="about-us text-center">
-						<h4>One riot, one ranger.</h4>
-						<p>Here's some pictures of me working solo, because that's all it ever took.</p>
+						<h4>One riot, one ranger,</h4>
+						<p>one Walker. <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
 						<a href="https://walkerlyle.bandcamp.com/" class="btn btn-send" target="_blank">Here's some songs too.</a>
 					</div>
 				</div>
@@ -578,7 +579,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 				</div>
                 <div class="col-sm-7 col-sm-offset-1">
 					
-<form class="form-horizontal" role="form" method="post" action="index.php">
+<form id="send_message" class="form-horizontal" role="form" method="post" action="#send_message">
 	<div class="form-group">
 		<label for="name" class="col-sm-2 control-label">Name</label>
 		<div class="col-sm-10">
@@ -636,7 +637,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 				</div>
 				<!-- /SOCIAL ICONS -->
 				<div class="col-sm-6 col-sm-pull-6 copyright">
-					<p>&copy; 2016 <a href="">South House Publishing</a>. All Rights Reserved.</p>
+					<p>&copy; 2016 <a href="http://www.walkerlyle.com">south house design</a>. All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
