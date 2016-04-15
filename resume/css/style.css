@@ -37,3 +37,12 @@ h5 {
 p {
     font-family: 'Rubik', sans-serif;
 }
+
+@media screen and (max-width: 992px) {
+    #address_home > p {
+        text-align: center;
+    }
+    #email_address > p {
+        text-align: center;
+    }
+}
