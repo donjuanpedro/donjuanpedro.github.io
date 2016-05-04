@@ -1,0 +1,69 @@
+.row > div > div > img {
+    height:110px;
+    margin: 1px;
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(173,161,173,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(173,161,173,1);
+box-shadow: 10px 10px 5px 0px rgba(173,161,173,1);
+}
+.row > div:first-child {
+    border-left: 2px #CC3611 solid;
+    border-right: 2px #CC3611 solid;
+}
+.row > div > p {
+    text-align: center;
+    overflow: auto;
+}
+.excellentrow {
+    width: 100%;
+    float: left;
+}
+.excellentrow > threebee {
+    width: 20%;
+    float: left;
+}
+.threebee > a {
+    text-align: center;
+}
+
+#myCarousel {
+    width:100%;
+    background-color:#CC3611;
+    align-content: center;
+}
+a:hover {
+    color: #CC3611;
+    text-decoration: none;
+}
+nav {
+    float: left;
+    margin-left: 50%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+nav > span > a {
+    color:#CC3611;
+    padding-right: 10px;
+    float: left;
+}
+header {
+    float: left;
+    width: 100%;
+}
+h1 {
+    float: left;
+    color:#CC3611;
+    text-decoration:underline;
+}
+p {
+    padding: 2px;
+}
+#myCarousel {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(173,161,173,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(173,161,173,1);
+box-shadow: 10px 10px 5px 0px rgba(173,161,173,1);
+    margin-bottom: 20px;
+}
+
+
+
