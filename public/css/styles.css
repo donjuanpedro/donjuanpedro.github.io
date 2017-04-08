@@ -29,6 +29,17 @@ header .navbar {
   min-height: 500px;
   position: relative;
 }
+
+.heroContact {
+  background-image: url("https://mosthdwallpapers.com/wp-content/uploads/2016/05/HD-Wallpapers-of-Lion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  min-height: 500px;
+  position: relative;
+}
+
 .hero-content {
   /*position: absolute;*/
   top: 50%;
