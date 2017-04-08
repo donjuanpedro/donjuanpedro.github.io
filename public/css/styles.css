@@ -11,7 +11,7 @@ header .navbar {
 }
 
 .hero {
-  background-image: url(".\public\img\IMG1940.JPG");
+  background-image: url("./public/img/IMG1940.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
