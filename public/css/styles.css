@@ -12,5 +12,6 @@ header .navbar {
 }
 
 h1 {
-  font-size: 31px;
+  font-size: 25em;
+  margin-top: .2em;
 }
