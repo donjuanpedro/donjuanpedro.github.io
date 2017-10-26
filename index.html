@@ -204,7 +204,7 @@
 				// TEXT
 
 				var loader = new THREE.FontLoader();
-				loader.load( 'fonts/gentilis_bold.typeface.json', function ( font ) {
+				loader.load( 'fonts/helvetiker_regular.typeface.json', function ( font ) {
 
 					var textGeo = new THREE.TextBufferGeometry( "Walker L", {
 
@@ -223,7 +223,7 @@
 					textGeo.computeBoundingBox();
 					var centerOffset = - 0.5 * ( textGeo.boundingBox.max.x - textGeo.boundingBox.min.x );
 
-					var textMaterial = new THREE.MeshPhongMaterial( { color: 0x006400, specular: 0xffffff } );
+					var textMaterial = new THREE.MeshPhongMaterial( { color: 0x228B22, specular: 0xffffff } );
 
 					var mesh = new THREE.Mesh( textGeo, textMaterial );
 					mesh.position.x = centerOffset;
