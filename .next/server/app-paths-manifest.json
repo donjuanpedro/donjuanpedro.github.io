@@ -1,7 +1,11 @@
 {
-  "/page": "app/page.js",
-  "/work/page": "app/work/page.js",
-  "/guestbook/page": "app/guestbook/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/page": "app/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/uses/page": "app/uses/page.js",
+  "/work/page": "app/work/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/og/route": "app/og/route.js"
 }
