@@ -874,14 +874,6 @@ img, video {
   --tw-prose-invert-td-borders: #404040;
 }
 
-.prose-quoteless :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *)):before {
-  content: none;
-}
-
-.prose-quoteless :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *)):after {
-  content: none;
-}
-
 .static {
   position: static;
 }
@@ -1017,14 +1009,6 @@ img, video {
   height: 10rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
 .h-7 {
   height: 1.75rem;
 }
@@ -1055,10 +1039,6 @@ img, video {
 
 .max-w-\[500px\] {
   max-width: 500px;
-}
-
-.max-w-\[650px\] {
-  max-width: 650px;
 }
 
 .flex-1 {
@@ -1099,10 +1079,6 @@ img, video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .space-x-0 > :not([hidden]) ~ :not([hidden]) {
