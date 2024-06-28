@@ -5,6 +5,8 @@ export const sql = postgres(process.env.POSTGRES_URL, {
 });
 
 const nextConfig = {
+  output: 'export',
+  images: { unoptimized: true },
   experimental: {
     ppr: true,
   },
