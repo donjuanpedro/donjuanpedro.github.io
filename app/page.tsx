@@ -24,7 +24,7 @@ export default function Page() {
       <div className="flex-1">
         <h1 className="font-medium text-2xl mb-8 tracking-tighter">hi, I'm Walker 👋</h1>
         <p className="prose prose-neutral dark:prose-invert mb-4">
-          I'm an Austin-based web developer, avid fly-fisherman, and amateur barbecue competitor. Other obsessions include American history between 1781-1818, songwriting, and literature.
+          I'm an Austin-based web developer, avid fly fisherman, and amateur barbecue competitor. Other obsessions include American history between 1781-1818, songwriting, and literature.
         </p>
         <p className="prose prose-neutral dark:prose-invert mb-8">When I'm not writing code, you can find me camping, road-tripping, and navigating fatherhood.</p>
       </div>
