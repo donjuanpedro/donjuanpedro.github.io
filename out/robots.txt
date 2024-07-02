@@ -1,0 +1,4 @@
+User-Agent: *
+
+Host: https://walkerlyle.com
+Sitemap: https://walkerlyle.com/sitemap.xml
