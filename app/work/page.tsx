@@ -25,7 +25,7 @@ export default function WorkPage() {
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Sunnova</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Front-End Web Developer | 2023 - Present
+          Frontend Developer | 2023 - Present
         </p>
         <p>
           Here I've been fortunate to take part in several critical initiatives using React.
@@ -49,7 +49,7 @@ export default function WorkPage() {
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Lower Colorado River Authority</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Front-End Web Developer | 2016-2021
+          Frontend Developer | 2016-2021
         </p>
         <p>
           My first web dev job - two site redesigns and one migration in just under five years.
