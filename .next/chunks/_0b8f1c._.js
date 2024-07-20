@@ -7,15 +7,8 @@ __turbopack_async_module__(async (__turbopack_handle_async_dependencies__, __tur
 __turbopack_esm__({
     "default": ()=>__TURBOPACK__default__export__
 });
-var __TURBOPACK__commonjs__external__url__ = __turbopack_external_require__("url", true);
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const configPath = `${process.cwd()}/${"./postcss.config.js"}`;
-// Absolute paths don't work with ESM imports on Windows:
-// https://github.com/nodejs/node/issues/31710
-// convert it to a file:// URL, which works on all platforms
-const configUrl = (0, __TURBOPACK__commonjs__external__url__["pathToFileURL"])(configPath).toString();
-const mod = await __turbopack_external_import__(configUrl);
+const configPath = `${process.cwd()}/./postcss.config.js`;
+const mod = await __turbopack_external_import__(configPath);
 const __TURBOPACK__default__export__ = mod.default ?? mod;
 __turbopack_async_result__();
 } catch(e) { __turbopack_async_result__(e); } }, true);

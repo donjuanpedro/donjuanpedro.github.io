@@ -20,9 +20,6 @@ const navItems = {
     },
     'https://blog.walkerlyle.com/': {
         name: 'blog'
-    },
-    '/contact': {
-        name: 'contact'
     }
 };
 function Navbar() {
@@ -42,28 +39,28 @@ function Navbar() {
                             children: name
                         }, path, false, {
                             fileName: "[project]/app/components/nav.tsx",
-                            lineNumber: 29,
+                            lineNumber: 26,
                             columnNumber: 17
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/app/components/nav.tsx",
-                    lineNumber: 26,
+                    lineNumber: 23,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/nav.tsx",
-                lineNumber: 22,
+                lineNumber: 19,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/nav.tsx",
-            lineNumber: 21,
+            lineNumber: 18,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/nav.tsx",
-        lineNumber: 20,
+        lineNumber: 17,
         columnNumber: 5
     }, this);
 }

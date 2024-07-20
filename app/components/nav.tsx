@@ -10,9 +10,6 @@ const navItems = {
   'https://blog.walkerlyle.com/': {
     name: 'blog',
   },
-  '/contact': {
-    name: 'contact',
-  },
 };
 
 export function Navbar() {
