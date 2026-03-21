@@ -4,9 +4,9 @@
 
 __turbopack_export_value__((__turbopack_import__) => {
     return Promise.all([
-  "chunks/node_modules_6d9fbd._.js",
+  "chunks/node_modules_53c1e4._.js",
   "chunks/_0b8f1c._.js",
-  "chunks/postcss_config_js_transform_ts_c265b9._.js"
+  "chunks/postcss_config_js_transform_ts_c36dd5._.js"
 ].map((chunk) => __turbopack_load__(chunk))).then(() => {
         return __turbopack_import__("[project]/postcss.config.js/transform.ts { CONFIG => \"[project]/postcss.config.js_.loader.mjs [postcss] (ecmascript)\" } [postcss] (ecmascript)");
     });

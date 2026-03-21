@@ -17,9 +17,6 @@ const navItems = {
     },
     '/work': {
         name: 'work'
-    },
-    'https://blog.walkerlyle.com/': {
-        name: 'blog'
     }
 };
 function Navbar() {
@@ -39,28 +36,28 @@ function Navbar() {
                             children: name
                         }, path, false, {
                             fileName: "[project]/app/components/nav.tsx",
-                            lineNumber: 26,
+                            lineNumber: 23,
                             columnNumber: 17
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/app/components/nav.tsx",
-                    lineNumber: 23,
+                    lineNumber: 20,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/nav.tsx",
-                lineNumber: 19,
+                lineNumber: 16,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/nav.tsx",
-            lineNumber: 18,
+            lineNumber: 15,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/nav.tsx",
-        lineNumber: 17,
+        lineNumber: 14,
         columnNumber: 5
     }, this);
 }
@@ -262,38 +259,54 @@ const metadata = {
     title: 'Work',
     description: 'A summary of my work and contributions.'
 };
-async function Stars() {
-    let res = await fetch('https://api.github.com/repos/vercel/next.js');
-    let json = await res.json();
-    let count = Math.round(json.stargazers_count / 1000);
-    return `${count}k stars`;
+function ArrowIcon() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        width: "12",
+        height: "12",
+        viewBox: "0 0 12 12",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+            d: "M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z",
+            fill: "currentColor"
+        }, void 0, false, {
+            fileName: "[project]/app/work/page.tsx",
+            lineNumber: 18,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/app/work/page.tsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
 }
 function WorkPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "font-medium text-2xl mb-8 tracking-tighter",
-                children: "my work"
-            }, void 0, false, {
-                fileName: "[project]/app/work/page.tsx",
-                lineNumber: 19,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "prose prose-neutral dark:prose-invert",
+                className: "prose prose-neutral dark:prose-invert mb-12",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "I switched career paths in 2016 and never looked back. Here's a summary of my work so far."
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "font-medium text-xl mb-1 tracking-tighter",
+                        children: "LPL Financial"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 21,
+                        lineNumber: 30,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-neutral-600 dark:text-neutral-400 text-sm",
+                        children: "Senior Front-End Developer | 2025 - Present"
+                    }, void 0, false, {
+                        fileName: "[project]/app/work/page.tsx",
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                         className: "my-6 border-neutral-100 dark:border-neutral-800"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 25,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -301,29 +314,22 @@ function WorkPage() {
                         children: "Sunnova"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 26,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-neutral-600 dark:text-neutral-400 text-sm",
-                        children: "Frontend Developer | 2023 - Present"
+                        children: "Front-End Developer | 2023 - 2025"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 27,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "Here I've been fortunate to take part in several critical initiatives using React."
-                    }, void 0, false, {
-                        fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 30,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                         className: "my-6 border-neutral-100 dark:border-neutral-800"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 33,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -331,7 +337,7 @@ function WorkPage() {
                         children: "ShiftKey"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 34,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -339,21 +345,14 @@ function WorkPage() {
                         children: "Web Developer | 2022"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "This position helped me to hone skills in Vue while managing a marketing site single-handedly."
-                    }, void 0, false, {
-                        fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 38,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                         className: "my-6 border-neutral-100 dark:border-neutral-800"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 41,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -361,19 +360,12 @@ function WorkPage() {
                         children: "Promises Behavioral Health"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 42,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-neutral-600 dark:text-neutral-400 text-sm",
                         children: "Web Developer | 2021-2022"
-                    }, void 0, false, {
-                        fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 43,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "Ten website rebuilds in less than six months pushed me to expand Wordpress knowlege and move beyond the CMS."
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
                         lineNumber: 46,
@@ -396,29 +388,47 @@ function WorkPage() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-neutral-600 dark:text-neutral-400 text-sm",
-                        children: "Frontend Developer | 2016-2021"
+                        children: "Front-End Developer | 2016-2021"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
                         lineNumber: 51,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "My first web dev job - two site redesigns and one migration in just under five years."
-                    }, void 0, false, {
-                        fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 54,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/work/page.tsx",
-                lineNumber: 20,
+                lineNumber: 29,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                className: "flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100",
+                rel: "noopener noreferrer",
+                target: "_blank",
+                href: "https://github.com/donjuanpedro",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {}, void 0, false, {
+                        fileName: "[project]/app/work/page.tsx",
+                        lineNumber: 61,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "ml-2 h-7",
+                        children: "find me on github"
+                    }, void 0, false, {
+                        fileName: "[project]/app/work/page.tsx",
+                        lineNumber: 62,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/work/page.tsx",
+                lineNumber: 55,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/work/page.tsx",
-        lineNumber: 18,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }

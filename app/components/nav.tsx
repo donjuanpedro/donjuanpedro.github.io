@@ -7,9 +7,6 @@ const navItems = {
   '/work': {
     name: 'work',
   },
-  'https://blog.walkerlyle.com/': {
-    name: 'blog',
-  },
 };
 
 export function Navbar() {
